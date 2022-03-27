@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch+Sans:wght@100;200;300;400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border;
+  font-family: "Roboto", sans-serif;
+}
+.rocky {
+  height: 100vh;
+  width: 100%;
+  background-image: url(109673.jpg);
+  background-size: cover;
+}
+.topic {
+  height: 18vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topic h2 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #ff006a;
+}
+.topic ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px 20px;
+}
+.topic ul li a {
+  text-decoration: none;
+  color: #ff006a;
+  transition: 0.3s;
+}
+.topic ul li a:hover {
+  font-weight: bold;
+  color: azure;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 45px;
+  margin: 15px 0px 15px;
+  color: rgba(21, 31, 28, 0.938);
+  font-weight: bold;
+}
+span {
+  color: #ff006a;
+}
+h3 {
+  color: rgb(97, 236, 3);
+  font-size: 25px;
+  font-weight: 400;
+}
+.sidebar {
+  position: absolute;
+  height: 340px;
+  width: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  top: 30%;
+  right: 30px;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px auto;
+}
+
+.text {
+  background-color: #ff006a;
+  height: 100%;
+  min-height: 0px;
+  margin-right: 5px;
+  line-height: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 0 0 5px;
+  overflow: hidden;
+}
+
+.icon {
+  height: 100%;
+  min-width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.icon i {
+  color: #ff006a;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.box:hover .icon {
+  background-color: #ff006a;
+}
+
+.box:hover .icon i {
+  color: #fff;
+}
+
+.box:hover .text {
+  min-width: 120px;
+}
